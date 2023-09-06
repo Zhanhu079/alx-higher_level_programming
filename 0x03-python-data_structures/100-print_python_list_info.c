@@ -1,7 +1,6 @@
-#include </usr/bin/python3/python.h>
+#include <Python.h>
 
-/**
- * print_python_list_info - Prints the basic info about Python lists.
+/* print_python_list_info - Prints the basic info about Python lists.
  * @p: A PyObject list.
  */
 void print_python_list_info(PyObject *p)
