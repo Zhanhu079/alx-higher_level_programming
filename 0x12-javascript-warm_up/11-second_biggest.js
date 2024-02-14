@@ -13,6 +13,8 @@ if (process.argv.length < 3) {
     if (num > largestNumber) {
       secondLargest = largestNumber;
       largestNumber = input[i];
+    } else if (num > secondLargest && num !== largestNumber) {
+      secondLargest = num;
     }
   }
   console.log(secondLargest);
